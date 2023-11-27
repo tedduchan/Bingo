@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Wordle</title>
+  </head>
+  <body>
+    <main class="main"><h1 class="title">WORDLE</h1>
+      <div id="game-board" class="game-board">
+      <div class="game-board__row">
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+      </div>
+      <div class="game-board__row">
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+      </div>
+      <div class="game-board__row">
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+      </div>
+      <div class="game-board__row">
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+      </div>
+      <div class="game-board__row">
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+        <span class="letter"></span>
+      </div>
+    </div>
+    <form class="displayFlex" id="user-word-form">
+      <input id="userWord" type="text" name="word" class="input" placeholder="type your solution">
+      <label id="labelError" for="userWord"></label>
+    </form>
+    </main>
+    <div id="modal" class="modal">
+    </div>
+    <div id="pop-up" class="pop-up">
+    </div>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
